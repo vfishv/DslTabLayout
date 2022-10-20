@@ -77,14 +77,14 @@
             app:layout_tab_convex_height="20dp">
 
             <com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/lottie_view"
+                android:id="@+id/lottie_view2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 app:lottie_colorFilter="#333AC4"
                 app:lottie_rawRes="@raw/json_add" />
 
             <com.angcyo.widget.DslButton
-                android:id="@+id/button_view"
+                android:id="@+id/button_view2"
                 style="@style/TabItemStyle"
                 android:text="Common"
                 android:visibility="gone"

@@ -103,11 +103,11 @@ open class HoverItemDecoration : RecyclerView.ItemDecoration() {
     }
 
     private val attachStateChangeListener = object : View.OnAttachStateChangeListener {
-        override fun onViewDetachedFromWindow(view: View?) {
+        override fun onViewDetachedFromWindow(view: View) {
             removeAllHoverView()
         }
 
-        override fun onViewAttachedToWindow(view: View?) {
+        override fun onViewAttachedToWindow(view: View) {
 
         }
     }
